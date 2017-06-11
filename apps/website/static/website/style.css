@@ -1,0 +1,117 @@
+.main{
+  width: 100%;
+  /*border: solid black 1px;*/
+}
+
+/*navigation options are here*/
+nav{
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+  overflow-x: hidden;
+  width: 15%;
+  /*border: solid black 1px;*/
+  display: inline-block;
+}
+
+.logo{
+  width: 100%;
+  /*border: solid green 1px;*/
+  margin: auto;
+}
+
+.logo img{
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+.nav-list{
+  list-style-type: none;
+}
+
+.nav-list li a:hover{
+  color: green;
+}
+
+/*navigation ends here*/
+
+.container{
+  /*border: solid black 1px;*/
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  background-image: url("images/treetestpaint.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 16%;
+}
+
+#about{
+  /*border: solid black 1px;*/
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  background-image: url("images/treetestpaint.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 16%;
+}
+
+#gallery{
+  /*border: solid black 1px;*/
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  background-image: url("images/treetestpaint.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 16%;
+}
+
+#contacts{
+  /*border: solid black 1px;*/
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  background-image: url("images/treetestpaint.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 16%;
+}
+
+.container1{
+  /*border: solid black 1px;*/
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  background-image: url("images/sample.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 16%;
+}
+
+.info{
+  width: 100%;
+  height: 500px;
+  display: inline-block;
+  /*border: solid blue 1px;*/
+  vertical-align: top;
+  text-align: center;
+}
