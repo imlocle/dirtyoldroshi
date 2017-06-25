@@ -15,6 +15,7 @@ nav{
   display: inline-block;
 }
 
+
 .logo{
   width: 100%;
   /*border: solid green 1px;*/
@@ -37,6 +38,11 @@ nav{
 
 /*navigation ends here*/
 
+#main{
+  margin-left: 16%;
+  border: solid black 1px;
+}
+
 .container{
   /*border: solid black 1px;*/
   display: inline-block;
@@ -48,7 +54,6 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 16%;
 }
 
 #about{
@@ -62,7 +67,7 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 16%;
+
 }
 
 #gallery{
@@ -76,7 +81,7 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 16%;
+
 }
 
 #contacts{
@@ -90,7 +95,7 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 16%;
+
 }
 
 .container1{
@@ -104,7 +109,7 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 16%;
+
 }
 
 .info{
@@ -114,4 +119,16 @@ nav{
   /*border: solid blue 1px;*/
   vertical-align: top;
   text-align: center;
+}
+
+/*gallery images*/
+.image-box img{
+  height: 100px;
+  width: 100px;
+  border: solid black 1px;
+}
+
+.gallery-container{
+  border: solid black 1px;
+  margin-left: 16%;
 }
