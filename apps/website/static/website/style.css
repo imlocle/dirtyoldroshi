@@ -15,7 +15,6 @@ nav{
   display: inline-block;
 }
 
-
 .logo{
   width: 100%;
   /*border: solid green 1px;*/
@@ -40,20 +39,6 @@ nav{
 
 #main{
   margin-left: 16%;
-  border: solid black 1px;
-}
-
-.container{
-  /*border: solid black 1px;*/
-  display: inline-block;
-  vertical-align: top;
-  width: 100%;
-  background-image: url("images/treetestpaint.jpg");
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #about{
@@ -61,21 +46,34 @@ nav{
   display: inline-block;
   vertical-align: top;
   width: 100%;
-  background-image: url("images/treetestpaint.jpg");
+  background-image: url("images/sample.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  margin: 0 auto;
+  padding: 0 20px;
 }
+
+#about h1{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 100px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+
 
 #gallery{
   /*border: solid black 1px;*/
   display: inline-block;
   vertical-align: top;
   width: 100%;
-  background-image: url("images/treetestpaint.jpg");
+  background-image: url("images/sample2.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -95,40 +93,35 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-}
-
-.container1{
-  /*border: solid black 1px;*/
-  display: inline-block;
-  vertical-align: top;
-  width: 100%;
-  background-image: url("images/sample.jpg");
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
 }
 
 .info{
   width: 100%;
-  height: 500px;
+  /*height: 500px;*/
   display: inline-block;
-  /*border: solid blue 1px;*/
+  /*border: solid blue 10px;*/
   vertical-align: top;
   text-align: center;
 }
 
-/*gallery images*/
-.image-box img{
-  height: 100px;
-  width: 100px;
+/*gallery box on main page*/
+.gallery-box{
   border: solid black 1px;
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  margin: 20px;
+  background-color: #fefbf7;
 }
 
-.gallery-container{
-  border: solid black 1px;
-  margin-left: 16%;
+.gallery-box:hover{
+  transform: scale(1.5, 1.25);
+  -moz-transform: scale(1.5, 1.25);
+  -ms-transform: scale(1.5, 1.25);
+  -webkit-transform: scale(1.5, 1.25);
+  -o-transform: scale(1.5, 1.25);
+}
+
+.gal-box-box{
+  display: inline-block;
 }
